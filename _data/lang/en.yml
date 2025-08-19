@@ -104,6 +104,7 @@ post:
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
+      bluesky: Bluesky
       facebook: Facebook
       telegram: Telegram
       linkedin: LinkedIn
