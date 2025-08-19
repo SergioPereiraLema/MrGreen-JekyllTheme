@@ -27,5 +27,5 @@
   icon: "fa fa-link"
   url: ""
 - bluesky:
-  icon: "fa fa-square-bluesky"
+  icon: "fa-brands fa-square-bluesky"
   url: "https://bsky.app/intent/compose?text={title}%20{url}"
