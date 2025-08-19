@@ -29,3 +29,4 @@
 - bluesky:
   icon: "/assets/img/default/bluesky.svg"
   url: "https://bsky.app/intent/compose?text={title}%20{url}"
+
