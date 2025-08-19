@@ -39,7 +39,7 @@ facebook:
   url: "https://www.facebook.com"
 bluesky:
   icon: "/assets/img/default/bluesky.svg"
-  url: "https://bsky.app/profile/sergiopereiralema.bsky.social"
+  url: "https://bsky.app/"
 # add your new contact
 # your_new_contact:
 #   icon: "fa fa-font"
