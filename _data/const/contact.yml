@@ -38,7 +38,7 @@ facebook:
   icon: "fa fa-facebook"
   url: "https://www.facebook.com"
 bluesky:
-  icon: "fa fa-square-bluesky"
+  icon: "fabrands fa-square-bluesky"
   url: "https://bsky.app/profile/sergiopereiralema.bsky.social"
 # add your new contact
 # your_new_contact:
