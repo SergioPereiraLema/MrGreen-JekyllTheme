@@ -12,7 +12,7 @@
   icon: "fa fa-twitter-square"
   url: "https://twitter.com/intent/tweet?url={url}&text={title}"
 - bluesky:
-  icon: "/assets/img/default/bluesky.svg"
+  icon: "assets/img/default/bluesky.svg"
   url: "https://bsky.app/intent/compose?text={title}%20{url}"
 - facebook:
   icon: "fa fa-facebook-square"
