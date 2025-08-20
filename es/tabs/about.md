@@ -36,7 +36,6 @@ image_viewer_on: true
 #published: false
 ---
 
-{%- comment -%} 
 # Astronomía con datos abiertos: mi viaje con Gaia  
 
 Cuando tenía seis años en las fiestas de la pequeña aldea de Tella (Ponteceso, Galicia, España) vi mi primera estrella fugaz en un cielo que todavía se veía muy estrellado. Desde entonces me fascina mirar al cielo nocturno y tratar de aprender y entender qué hay detrás y por qué el universo es como es. Esa curiosidad se transformó con los años en un interés profundo por la astronomía. Estudié Física en la Universidad de Santiago de Compostela, orientado a la física de partículas. Sin embargo mi trayectoria profesional siempre estuvo ligada hacia las tecnologías de la información y la gestión de proyectos TIC, pero la pasión por las estrellas nunca desapareció.
@@ -96,9 +95,3 @@ Este blog es, en el fondo, una invitación a acompañarme en este proyecto que t
 Si te interesa la astronomía, los datos o simplemente ganas de aprender cosas nuevas, eres más que bienvenido. Y como indicaba antes, no soy un experto desarrollador. Si ves que mis desarrollos tienen errores y quieres unirte para hacer algo mejor, estás más que invitado, te lo agradecería profundamente.
 
 > Como dijo Carl Sagan, *“Estamos hechos de material estelar. Somos una forma de que el universo se conozca a sí mismo”*. Quizá, al explorar los datos de Gaia, podamos entender un poco mejor nuestro lugar en el universo.  
-{%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
