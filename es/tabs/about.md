@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":me.jpg"
+img: ":/assets/img/about/Artist_s_impression_of_Gaia_article.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -46,7 +46,7 @@ En el mundo de la informática aprendí a programar en Python (no soy un experto
 
 ## ¿Por qué Gaia?  
 
-![Gaia](/images/Gaia_pillars.jpg)
+![Gaia](/assets/img/about/Gaia_pillars.jpg)
 
 [Gaia](https://www.esa.int/Science_Exploration/Space_Science/Gaia) es una misión de la ESA lanzada en 2013 con un objetivo ambicioso: cartografiar con una precisión sin precedentes la Vía Láctea. El satélite mide posiciones, distancias y movimientos de más de mil millones de estrellas, creando un mapa tridimensional de nuestra galaxia que está revolucionando la astronomía moderna.  
 
@@ -95,3 +95,5 @@ Este blog es, en el fondo, una invitación a acompañarme en este proyecto que t
 Si te interesa la astronomía, los datos o simplemente ganas de aprender cosas nuevas, eres más que bienvenido. Y como indicaba antes, no soy un experto desarrollador. Si ves que mis desarrollos tienen errores y quieres unirte para hacer algo mejor, estás más que invitado, te lo agradecería profundamente.
 
 > Como dijo Carl Sagan, *“Estamos hechos de material estelar. Somos una forma de que el universo se conozca a sí mismo”*. Quizá, al explorar los datos de Gaia, podamos entender un poco mejor nuestro lugar en el universo.  
+
+Photo: ©ESA
