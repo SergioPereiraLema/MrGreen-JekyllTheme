@@ -20,8 +20,7 @@
 - telegram:
 #  icon: "fa fa-telegram"
   icon: "assets/img/default/bluesky.svg"
-  url: "https://bsky.app/intent/compose?text={title}%20{url}"
-#  url: "https://t.me/share/url?url={url}&text={text}"
+  url: "https://t.me/share/url?url={url}&text={text}"
 - linkedin:
   icon: "fa fa-linkedin-square"
   url: "https://www.linkedin.com/sharing/share-offsite/?url={url}"
