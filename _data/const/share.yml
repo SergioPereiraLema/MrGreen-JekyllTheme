@@ -18,7 +18,8 @@
   icon: "fa fa-facebook-square"
   url: "https://www.facebook.com/sharer/sharer.php?u={url}"
 - telegram:
-  icon: "fa fa-telegram"
+#  icon: "fa fa-telegram"
+  icon: "assets/img/default/bluesky.svg"
   url: "https://bsky.app/intent/compose?text={title}%20{url}"
 #  url: "https://t.me/share/url?url={url}&text={text}"
 - linkedin:
