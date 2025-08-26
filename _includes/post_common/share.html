@@ -25,7 +25,7 @@
       {%- assign icon_first_chr = nil -%}
       {%- assign share_icon_tag = nil -%}
       {%- assign icon_first_chr = share_const.icon | slice: 0 -%}
-      {%- if share_const.icon contains 'http://' or share_const.icon contains 'https://' or icon_first_chr == '/' %}
+      {%- if share_const.icon contains 'http://' or share_const.icon contains 'https://' or share_const.icon contains '/assets/' %}
         {%- capture share_icon_tag -%} <img src="{{ share_const.icon }}" alt="{{ share_key }}"/> {%- endcapture %}
       {% else %}
         {%- capture share_icon_tag -%} <i class="{{ share_const.icon }}{{' fa-fw'}}" aria-hidden="true"></i> {%- endcapture %}
