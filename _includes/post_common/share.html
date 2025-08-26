@@ -22,7 +22,6 @@
       {% assign share_key = share_const | first | first -%}
       {%- assign tag_url = share_const.url | replace: '{text}', page_title | replace: '{title}', page_title | replace: '{url}', page_url | escape_once -%}
       {%- capture tag_attr -%} target="_blank" rel="noopener noreferrer" {%- endcapture -%}
-      {%- assign icon_first_chr = nil -%}
       {%- assign share_icon_tag = nil -%}
       {%- if share_const.icon contains 'http://' or share_const.icon contains 'https://' or share_const.icon contains '/assets/' %}
         {%- capture share_icon_tag -%} <img src="{{ share_const.icon }}" alt="{{ share_key }}"/> {%- endcapture %}
