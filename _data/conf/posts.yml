@@ -107,7 +107,7 @@ share_buttons: true
 share_buttons_hover_effect: "hover-effect-big"
 
 # this adds tooltip to share buttons
-share_buttons_tooltip: true
+share_buttons_tooltip: false
 
 ###########################################################
 #                Pager Buttons
