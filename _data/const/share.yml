@@ -13,7 +13,7 @@
   url: "https://twitter.com/intent/tweet?url={url}&text={title}"
 - bluesky:
   icon: "/assets/img/default/bluesky.svg"
-  url: "https://bsky.app/intent/compose?text={title}%20{url}"
+  url: "https://bsky.app/intent/compose?text={url}"
 - facebook:
   icon: "fa fa-facebook-square"
   url: "https://www.facebook.com/sharer/sharer.php?u={url}"
