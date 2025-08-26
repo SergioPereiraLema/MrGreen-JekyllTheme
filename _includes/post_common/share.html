@@ -23,6 +23,17 @@
       {%- assign tag_url = share_const.url | replace: '{text}', page_title | replace: '{title}', page_title | replace: '{url}', page_url | escape_once -%}
       {%- capture tag_attr -%} target="_blank" rel="noopener noreferrer" {%- endcapture -%}
 
+
+      {%- assign icon_first_chr = nil -%}
+      {%- assign share_icon_tag = nil -%}
+      {%- assign icon_first_chr = share_const.icon | slice: 0 -%}
+      {%- if share_const.icon contains 'http://' or share_const.icon contains 'https://' or icon_first_chr == '/' %}
+        {%- capture share_icon_tag -%} <img src="{{ share_const.icon }}" alt="{{ account_key }}"/> {%- endcapture %}
+      {% else %}
+        {%- capture share_icon_tag -%} <i class="{{ share_const.icon }}" aria-hidden="true"></i> {%- endcapture %}
+      {% endif -%}
+
+
       {%- if share_key == "copy_link" -%}
         {%- assign tag_url = 'javascript:void(0);' -%}
         {%- capture tag_attr -%}
@@ -30,14 +41,14 @@
         {%- endcapture -%}
       {% endif -%}
 
+
       {%- if site.data.conf.posts.share_buttons_tooltip -%}
         {%- capture tooltip_share_buttons -%}
           data-toggle="tooltip" data-placement="top" title="{{ site.data.lang[lng].post.share.tooltip[share_key] }}"
         {%- endcapture %}
       {%- endif %}
       <li>
-        <a href="{{ tag_url }}" aria-label="{{ site.data.lang[lng].post.share.tooltip[share_key] }}" role="button" {{ tag_attr }} {{ tooltip_share_buttons }} {{ effect_share_button }}>
-          <i class="{{ share_const.icon }}{{' fa-fw'}}" aria-hidden="true"></i>
+        <a href="{{ tag_url }}" aria-label="{{ site.data.lang[lng].post.share.tooltip[share_key] }}" role="button" {{ tag_attr }} {{ tooltip_share_buttons }} {{ effect_share_button }}>{{ contact_icon_tag }}
         </a>
       </li>
     {% endfor %}
