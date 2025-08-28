@@ -39,9 +39,4 @@ title: Mi título
 
 #{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-#{%- include util/auto-content-generator.liquid -%}
-#{{ website_info_text_first }}
-
-#{{ website_info_text_second }}
-
 ¿Te fascina el universo y te preguntas cómo se desentrañan sus secretos? En este blog iré contando mi proceso de aprendizaje, donde combino mi pasión por la astronomía con mis conocimientos en análisis de datos. No soy astrofísico profesional, estoy aprendiendo a explorar los datos abiertos del satélite Gaia y conocer más sobre varios temas de astrofísica. Sígueme durante el proceso y no dudes en comentar y aportar en el proceso.

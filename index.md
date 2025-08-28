@@ -39,9 +39,4 @@ img: ":home-heading.jpg"
 
 #{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-#{%- include util/auto-content-generator.liquid -%}
-#{{ website_info_text_first }}
-
-#{{ website_info_text_second }}
-
 Are you fascinated by the universe and wonder how its secrets are unravelled? In this blog, I will recount my learning process, where I combine my passion for astronomy with my knowledge of data analysis. I am not a professional astrophysicist; I am learning to explore the open data from the Gaia satellite and learn more about various topics in astrophysics. Follow me throughout the process and feel free to comment and contribute.
