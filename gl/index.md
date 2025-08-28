@@ -37,9 +37,11 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+#{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+#{%- include util/auto-content-generator.liquid -%}
+#{{ website_info_text_first }}
 
-{{ website_info_text_second }}
+#{{ website_info_text_second }}
+
+Fascínache o universo e pregúntaste como se desentrañan os seus segredos? Neste blog irei contando o meu proceso de aprendizaxe, onde combino a miña paixón pola astronomía cos meus coñecementos en análise de datos. Non son astrofísico profesional, estou a aprender a explorar os datos abertos do satélite Gaia e coñecer máis sobre varios temas de astrofísica. Sígueme durante o proceso e non dubides en comentar e achegar no proceso.
