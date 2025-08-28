@@ -42,7 +42,7 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "Discover the secrets of the cosmos with open data. Follow my journey of learning astronomy, using Python and data analysis techniques to explore the Gaia catalogue. A blog for those who are curious and passionate about the universe and want to learn how to decode astronomical data."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
@@ -77,7 +77,7 @@ comments:
 
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
-google_analytics_id: ""
+google_analytics_id: "G-1H8CXQHXG6"
 
 # there are different ways to verify web page. One is adding this as meta into html.
 # make sure you set meta.google_site_verify: true in _data/conf/main.yml
