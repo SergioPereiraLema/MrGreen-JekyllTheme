@@ -75,7 +75,7 @@ No futuro seguramente a curiosidade me levará ata outros catálogos astronómic
 
 ---
 
-## Qué encontrarás aquí?  
+## Qué atoparás aquí?  
 
 As publicacións deste blog irán crecendo paso a paso, cun nivel pensado para quen xa ten unha base de Python pero quere dar o salto a traballar con datos astronómicos. A viaje pretendo que teña ceerta estructura:  
 
