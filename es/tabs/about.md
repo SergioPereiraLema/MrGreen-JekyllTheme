@@ -94,6 +94,10 @@ Este blog es, en el fondo, una invitación a acompañarme en este proyecto que t
 
 Si te interesa la astronomía, los datos o simplemente ganas de aprender cosas nuevas, eres más que bienvenido. Y como indicaba antes, no soy un experto desarrollador. Si ves que mis desarrollos tienen errores y quieres unirte para hacer algo mejor, estás más que invitado, te lo agradecería profundamente.
 
-> Como dijo Carl Sagan, *“Estamos hechos de material estelar. Somos una forma de que el universo se conozca a sí mismo”*. Quizá, al explorar los datos de Gaia, podamos entender un poco mejor nuestro lugar en el universo.  
+Como dijo Carl Sagan, 
+
+> *“Estamos hechos de material estelar. Somos una forma de que el universo se conozca a sí mismo”*. 
+
+Quizá, al explorar los datos de Gaia, podamos entender un poco mejor nuestro lugar en el universo.  
 
 Photo: ©ESA
